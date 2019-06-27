@@ -1,0 +1,16 @@
+body {
+
+}
+
+td {
+	text-align: center;
+}
+
+.name-column {
+	width: 40%;
+	text-align: left;
+}
+
+.last {
+	text-align: right;
+}
