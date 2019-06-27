@@ -6,6 +6,10 @@ td {
 	text-align: center;
 }
 
+.headers {
+	background-color: #D8D8D8;
+}
+
 .name-column {
 	width: 40%;
 	text-align: left;
