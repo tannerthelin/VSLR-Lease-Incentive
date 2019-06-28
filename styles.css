@@ -1,13 +1,46 @@
-body {
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Light_3.ttf") format("ttf");
+  font-weight: 300;
+}
 
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Medium_3.ttf") format("ttf");
+  font-weight: 500;
+}
+
+body {
+	background-color: #16191E;
+	color: white;
+	font-family: "IntCircularPro-Light_3", sans-serif;
+	margin: 0px;
 }
 
 td {
 	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	border-top: 1px solid #5B5E61;
 }
 
 .headers {
-	background-color: #D8D8D8;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #787B7D;
+	font-size: 21px;
+	letter-spacing: 3px;
+}
+
+#table-content {
+	max-width: 918px; 
+	width: 100%; 
+	margin: auto;
+	padding-top: 200px;
+}
+
+.WC-column {
+	color: #787B7D;
 }
 
 .name-column {
@@ -17,4 +50,18 @@ td {
 
 .last {
 	text-align: right;
+}
+
+#page-title {
+	position: fixed;
+	background-color: #16191E;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 90px 0px;
+	margin: 0px;
 }
