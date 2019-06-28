@@ -65,3 +65,38 @@ td {
 	padding: 50px 0px 90px 0px;
 	margin: 0px;
 }
+
+a {
+	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	color: white;
+	display: block;	
+	-webkit-text-decoration-color: #B8B39D;
+  	text-decoration-color: #B8B39D;
+}
+
+.column-container {
+	margin-top: 0px;
+	display: flex;
+	padding: 0px 80px;
+	margin: auto;
+	justify-content: space-between;
+	margin-bottom: 150px;
+}
+
+.title {
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	margin: 0px;
+}
+
+.column {
+	width: 33%;
+}

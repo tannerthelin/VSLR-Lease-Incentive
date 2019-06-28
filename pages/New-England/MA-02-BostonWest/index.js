@@ -13,7 +13,7 @@ console.log(data);
 for (var i = 0; i < data.length; i++) {
 	
 	// Change this variable to switch the office!
-	var currentOffice = "IL-01 Chicago Solar";
+	var currentOffice = "MA-02 Boston West Solar";
 
 	document.getElementById("page-title").innerHTML = currentOffice;
 
