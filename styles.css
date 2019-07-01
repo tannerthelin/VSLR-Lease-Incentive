@@ -135,6 +135,6 @@ a {
   }
 
   .column-container {
-  	width: 100%;
+ 	padding: 0px;
   }
 }
