@@ -83,6 +83,7 @@ a {
 	margin: auto;
 	justify-content: space-between;
 	margin-bottom: 150px;
+	flex-wrap: wrap;
 }
 
 .title {
@@ -99,4 +100,28 @@ a {
 
 .column {
 	width: 33%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  body{
+  	padding: 0px 20px;
+  }
+
+  .headers {
+  	font-size: 18px;
+  }
+
+  #page-title {
+  	font-size: 18px;
+  	padding: 50px 0px 0px 0px;
+  }
+
+  #table-content {
+  	padding: 140px 0px;
+  }
+
+  .column {
+  	width: 100%;
+  }
 }
