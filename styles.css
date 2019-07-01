@@ -109,12 +109,12 @@ a {
   }
 
   .headers {
-  	font-size: 18px;
+  	font-size: 12px;
   }
 
   #page-title {
   	font-size: 18px;
-  	padding: 50px 0px 0px 0px;
+  	padding: 50px 0px 30px 0px;
   }
 
   #table-content {
@@ -122,6 +122,10 @@ a {
   }
 
   td {
+	font-size: 25px;
+}
+
+a {
 	font-size: 25px;
 }
 
