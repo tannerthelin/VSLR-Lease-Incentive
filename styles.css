@@ -122,7 +122,8 @@ a {
   }
 
   td {
-	font-size: 25px;
+	font-size: 20px;
+	padding: 12px 0px;
 }
 
 a {
@@ -130,6 +131,10 @@ a {
 }
 
   .column {
+  	width: 100%;
+  }
+
+  .column-container {
   	width: 100%;
   }
 }
