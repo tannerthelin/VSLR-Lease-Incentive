@@ -138,6 +138,10 @@ a {
   	width: 100%;
   }
 
+  .spacing {
+  	height: 100px;
+  }
+
   .column-container {
  	padding: 0px;
   }
