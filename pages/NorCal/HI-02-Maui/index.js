@@ -13,7 +13,7 @@ console.log(data);
 for (var i = 0; i < data.length; i++) {
 	
 	// Change this variable to switch the office!
-	var currentOffice = "NM-Vivint Inc Dealer";
+	var currentOffice = "HI-02 Maui Solar";
 
 	document.getElementById("page-title").innerHTML = currentOffice;
 
@@ -23,8 +23,8 @@ for (var i = 0; i < data.length; i++) {
 		'<tr>' +
 		'<td class="name-column">' + data[i].name + '</td>' +
 		//'<td class="office-column">' + data[i].office + '</td>' +
-		'<td class="WC-column needed">' + data[i].wc_needed + '</td>' +
-		'<td class="WC-column last">' + data[i].current_wc + '</td>' +
+		'<td class="WC-column needed">' + data[i].score_to_hit + '</td>' +
+		'<td class="WC-column last">' + data[i].current_score + '</td>' +
 		'</tr>'
 		);
 	}
